@@ -30,5 +30,7 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
 #git clone https://github.com/tty228/luci-app-serverchan.git package/diy/luci-app-serverchan
 svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-ddnsto package/diy/luci-app-ddnsto
+svn co https://github.com/sirpdboy/luci-app-autotimeset package/diy/luci-app-autotimeset
+svn co https://github.com/sirpdboy/sirpdboy-package/tree/main/luci-app-control-weburl package/diy/luci-app-control-weburl
 
 rm -rf package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
