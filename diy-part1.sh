@@ -28,6 +28,7 @@ git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-ap
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-usb3disable package/diy/luci-app-usb3disable
 # git clone https://github.com/immortalwrt/openwrt-passwall.git package/diy/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
-# git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
+#git clone https://github.com/tty228/luci-app-serverchan.git package/diy/luci-app-serverchan
+svn co https://github.com/limi00/sirpdboy-package/tree/main/luci-app-ddnsto package/diy/luci-app-ddnsto
 
 rm -rf package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
