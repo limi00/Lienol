@@ -29,7 +29,9 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-
 # git clone https://github.com/immortalwrt/openwrt-passwall.git package/diy/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
 git clone https://github.com/tty228/luci-app-serverchan.git package/diy/luci-app-serverchan
-svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-ddnsto package/diy/luci-app-ddnsto
+svn co https://github.com/linkease/ddnsto-openwrt/trunk/ddnsto package/network/services/ddnsto
+svn co https://github.com/linkease/ddnsto-openwrt/tree/main/luci-app-ddnsto package/diy/luci-app-ddnsto
+# svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-ddnsto package/diy/luci-app-ddnsto
 svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-autotimeset package/diy/luci-app-autotimeset
 svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-control-weburl package/diy/luci-app-control-weburl
 
